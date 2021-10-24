@@ -16,6 +16,7 @@
 		B77B09D42724C1BA00CFFD8C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77B09D22724C1BA00CFFD8C /* TableViewCell.swift */; };
 		B77B09D52724C1BA00CFFD8C /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B77B09D32724C1BA00CFFD8C /* TableViewCell.xib */; };
 		B77B09D7272570F200CFFD8C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77B09D6272570F200CFFD8C /* Colors.xcassets */; };
+		B77B09DB2725911200CFFD8C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77B09DA2725911200CFFD8C /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B77B09D22724C1BA00CFFD8C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		B77B09D32724C1BA00CFFD8C /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		B77B09D6272570F200CFFD8C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		B77B09DA2725911200CFFD8C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				B77B09BF2723690400CFFD8C /* SceneDelegate.swift */,
 				B77B09C12723690400CFFD8C /* ViewController.swift */,
 				B77B09D12724C18600CFFD8C /* cell */,
+				B77B09D9272590F700CFFD8C /* model */,
 				B77B09C32723690400CFFD8C /* Main.storyboard */,
 				B77B09C62723690800CFFD8C /* Assets.xcassets */,
 				B77B09D6272570F200CFFD8C /* Colors.xcassets */,
@@ -82,6 +85,14 @@
 				B77B09D32724C1BA00CFFD8C /* TableViewCell.xib */,
 			);
 			path = cell;
+			sourceTree = "<group>";
+		};
+		B77B09D9272590F700CFFD8C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B77B09DA2725911200CFFD8C /* Model.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77B09DB2725911200CFFD8C /* Model.swift in Sources */,
 				B77B09C22723690400CFFD8C /* ViewController.swift in Sources */,
 				B77B09D42724C1BA00CFFD8C /* TableViewCell.swift in Sources */,
 				B77B09BE2723690400CFFD8C /* AppDelegate.swift in Sources */,

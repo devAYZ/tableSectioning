@@ -7,16 +7,13 @@
 
 import UIKit
 
-struct Phone {
-    var version: String
-    var name: [String]
-}
-
 class ViewController: UIViewController {
     
     // MARK: IBOutlets
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var tableView: UITableView!
+    
+    // MARK: Properties
     var list = [
         Phone(version: "Version 1", name: ["iPhone 4","iPhone 5", "iPhone 5s", "iPhone 6", "iPhone 6s" ]),
         Phone(version: "Version 2", name: ["iPhone 7", "iPhone 8"]),
