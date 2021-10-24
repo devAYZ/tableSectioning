@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     }
 
     func setupView() {
+        label.textColor = UIColor(named: "AppRed")
 
     }
 
