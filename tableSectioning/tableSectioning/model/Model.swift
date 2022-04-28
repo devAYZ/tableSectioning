@@ -11,3 +11,11 @@ struct Phone {
     var version: String
     var name: [String]
 }
+
+struct Version {
+    var version: String
+}
+
+struct Name {
+    var name: String
+}

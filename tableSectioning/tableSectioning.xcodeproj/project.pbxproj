@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73A1538FFD8FA315ADF3E451 /* Pods_tableSectioning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8F82A214DC2391E2FA01E1 /* Pods_tableSectioning.framework */; };
+		B72C5E4F28182C4E00A57EFC /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72C5E4B28182C4D00A57EFC /* Poppins-Bold.ttf */; };
+		B72C5E5028182C4E00A57EFC /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72C5E4C28182C4D00A57EFC /* Poppins-Black.ttf */; };
+		B72C5E5128182C4E00A57EFC /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72C5E4D28182C4E00A57EFC /* Poppins-Light.ttf */; };
+		B72C5E5228182C4E00A57EFC /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72C5E4E28182C4E00A57EFC /* Poppins-Thin.ttf */; };
+		B72C5E5D281833D100A57EFC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72C5E5C281833D100A57EFC /* Poppins-Regular.ttf */; };
+		B72C5E612818380D00A57EFC /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72C5E602818380D00A57EFC /* R.generated.swift */; };
+		B72C5E63281838DE00A57EFC /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72C5E62281838DE00A57EFC /* Poppins-Medium.ttf */; };
 		B77B09BE2723690400CFFD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77B09BD2723690400CFFD8C /* AppDelegate.swift */; };
 		B77B09C02723690400CFFD8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77B09BF2723690400CFFD8C /* SceneDelegate.swift */; };
 		B77B09C22723690400CFFD8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77B09C12723690400CFFD8C /* ViewController.swift */; };
@@ -20,6 +28,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183EEB6961C431805A4877D3 /* Pods-tableSectioning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableSectioning.release.xcconfig"; path = "Target Support Files/Pods-tableSectioning/Pods-tableSectioning.release.xcconfig"; sourceTree = "<group>"; };
+		2C8F82A214DC2391E2FA01E1 /* Pods_tableSectioning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tableSectioning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E8251756730D5941244686 /* Pods-tableSectioning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableSectioning.debug.xcconfig"; path = "Target Support Files/Pods-tableSectioning/Pods-tableSectioning.debug.xcconfig"; sourceTree = "<group>"; };
+		B72C5E4B28182C4D00A57EFC /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		B72C5E4C28182C4D00A57EFC /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		B72C5E4D28182C4E00A57EFC /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		B72C5E4E28182C4E00A57EFC /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		B72C5E5C281833D100A57EFC /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		B72C5E602818380D00A57EFC /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		B72C5E62281838DE00A57EFC /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		B77B09BA2723690400CFFD8C /* tableSectioning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableSectioning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77B09BD2723690400CFFD8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B77B09BF2723690400CFFD8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,17 +57,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A1538FFD8FA315ADF3E451 /* Pods_tableSectioning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7BDFD56230C347137C08078 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31E8251756730D5941244686 /* Pods-tableSectioning.debug.xcconfig */,
+				183EEB6961C431805A4877D3 /* Pods-tableSectioning.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B461F4E6C42C8ECD8CCC0B34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C8F82A214DC2391E2FA01E1 /* Pods_tableSectioning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B72C5E4928182C2300A57EFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B72C5E4A28182C2E00A57EFC /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B72C5E4A28182C2E00A57EFC /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B72C5E4C28182C4D00A57EFC /* Poppins-Black.ttf */,
+				B72C5E4B28182C4D00A57EFC /* Poppins-Bold.ttf */,
+				B72C5E4D28182C4E00A57EFC /* Poppins-Light.ttf */,
+				B72C5E4E28182C4E00A57EFC /* Poppins-Thin.ttf */,
+				B72C5E5C281833D100A57EFC /* Poppins-Regular.ttf */,
+				B72C5E62281838DE00A57EFC /* Poppins-Medium.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		B77B09B12723690400CFFD8C = {
 			isa = PBXGroup;
 			children = (
 				B77B09BC2723690400CFFD8C /* tableSectioning */,
 				B77B09BB2723690400CFFD8C /* Products */,
+				A7BDFD56230C347137C08078 /* Pods */,
+				B461F4E6C42C8ECD8CCC0B34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +123,8 @@
 		B77B09BC2723690400CFFD8C /* tableSectioning */ = {
 			isa = PBXGroup;
 			children = (
+				B72C5E602818380D00A57EFC /* R.generated.swift */,
+				B72C5E4928182C2300A57EFC /* Resources */,
 				B77B09BD2723690400CFFD8C /* AppDelegate.swift */,
 				B77B09BF2723690400CFFD8C /* SceneDelegate.swift */,
 				B77B09C12723690400CFFD8C /* ViewController.swift */,
@@ -102,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B77B09CE2723690800CFFD8C /* Build configuration list for PBXNativeTarget "tableSectioning" */;
 			buildPhases = (
+				1F20F98517CECC4C09D90A40 /* [CP] Check Pods Manifest.lock */,
+				B72C5E5328182E8C00A57EFC /* ShellScript */,
 				B77B09B62723690400CFFD8C /* Sources */,
 				B77B09B72723690400CFFD8C /* Frameworks */,
 				B77B09B82723690400CFFD8C /* Resources */,
+				5967370B79F6EDE82026655D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,14 +217,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				B77B09D7272570F200CFFD8C /* Colors.xcassets in Resources */,
+				B72C5E4F28182C4E00A57EFC /* Poppins-Bold.ttf in Resources */,
+				B72C5E63281838DE00A57EFC /* Poppins-Medium.ttf in Resources */,
 				B77B09CA2723690800CFFD8C /* LaunchScreen.storyboard in Resources */,
+				B72C5E5228182C4E00A57EFC /* Poppins-Thin.ttf in Resources */,
+				B72C5E5128182C4E00A57EFC /* Poppins-Light.ttf in Resources */,
+				B72C5E5028182C4E00A57EFC /* Poppins-Black.ttf in Resources */,
 				B77B09D52724C1BA00CFFD8C /* TableViewCell.xib in Resources */,
 				B77B09C72723690800CFFD8C /* Assets.xcassets in Resources */,
 				B77B09C52723690400CFFD8C /* Main.storyboard in Resources */,
+				B72C5E5D281833D100A57EFC /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F20F98517CECC4C09D90A40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tableSectioning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5967370B79F6EDE82026655D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tableSectioning/Pods-tableSectioning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tableSectioning/Pods-tableSectioning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tableSectioning/Pods-tableSectioning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B72C5E5328182E8C00A57EFC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B77B09B62723690400CFFD8C /* Sources */ = {
@@ -172,6 +303,7 @@
 				B77B09D42724C1BA00CFFD8C /* TableViewCell.swift in Sources */,
 				B77B09BE2723690400CFFD8C /* AppDelegate.swift in Sources */,
 				B77B09C02723690400CFFD8C /* SceneDelegate.swift in Sources */,
+				B72C5E612818380D00A57EFC /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +447,7 @@
 		};
 		B77B09CF2723690800CFFD8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E8251756730D5941244686 /* Pods-tableSectioning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -334,6 +467,7 @@
 		};
 		B77B09D02723690800CFFD8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183EEB6961C431805A4877D3 /* Pods-tableSectioning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
